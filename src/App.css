@@ -1,0 +1,241 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+/* variables de color */
+:root {
+  --azul: #0057FF;
+  --azulClaro: #2A73FF;
+  --negro: #303437;
+  --negroClaro: #404446;
+  --blanco: #F2F4F5;
+  --morado: #E7E7FF;
+  --rosado: #FF007B;
+}
+
+html {
+  overflow: hidden;
+}
+
+/* cont para vista movil */
+.movil {
+  width: 390px;
+  height: 844px;
+  overflow: hidden;
+  background-color: aliceblue;
+  margin: 0 auto;
+}
+
+.barra {
+  background-color: var(--azulClaro);
+  color: var(--blanco);
+  text-align: center;
+  font-size: 6px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.centrado {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.centrado button {
+  width: 100%;
+  height: 40px;
+  background-color: var(--rosado);
+  border: 1px solid var(--rosado);
+  border-radius: 10px;
+  margin: 10px 0 5px 0;
+  color: var(--blanco);
+  font-size: 14px;
+}
+
+.centrado button.inactivo {
+  width: 100%;
+  height: 40px;
+  background-color: var(--morado);
+  border: 1px solid var(--morado);
+  border-radius: 10px;
+  margin: 10px 0 5px 0;
+  color: var(--blanco);
+  font-size: 14px;
+}
+
+.tarjeta {
+  width: 100%;
+  height: 150px;
+  background: linear-gradient(75deg, #e90c8f, #dd24ce, #a430cc, #8b3ee4, #7549f6);
+  border-radius: 20px;
+  margin: 10px 0;
+  color: var(--blanco);
+  padding: 13px 21px;
+}
+
+.texto {
+  margin: 5px;
+  position: relative;
+  margin-left: 35px;
+}
+
+.ubicaciones {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+}
+
+#distancia {
+  margin-left: 50px;
+}
+
+#distancia::after {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 23px;
+  width: 1px;
+  height: 35px;
+  background-color: var(--blanco);
+
+}
+
+span{
+  color: var(--azul);
+  font-size: 11px;
+  font-weight: 500;
+}
+
+.tarjeta-tiempos{
+  width: 100%;
+  height: 150px;
+  border-radius: 20px;
+  margin: 10px 0;
+  color: var(--negro);
+  padding: 20px;
+  background-color:  var(--morado);
+}
+
+.cont1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--negro);
+}
+
+button.contorno {
+  width: 60%;
+  height: 25px;
+  border: 1px solid var(--azul);
+  background-color: transparent;
+  border-radius: 20px;
+  margin: 10px 0 5px 0;
+  color: var(--azul);
+  font-size: 14px;
+}
+
+.horas{
+  font-weight: 800;
+  font-size: 28px;
+}
+
+
+.centrado button.azules {
+  width: 100%;
+  height: 40px;
+  background-color: var(--azulClaro);
+  border: 1px solid var(--azul);
+  border-radius: 20px;
+  margin: 10px 0 5px 0;
+  color: var(--blanco);
+  font-size: 14px;
+  position: relative;
+}
+
+.centrado button.azules::before{
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: 50px;
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  border: 1cap solid var(--blanco);
+  border-radius: 20px;
+  margin: 10px 0 5px 0;
+  color: #b8b8b8;
+  font-size: 14px;
+}
+
+.centrado button.azules::after{
+  content: "";
+  position: absolute;
+  top: -6px;
+  left: 58px;
+  width: 7px;
+  height: 15px;
+  border: 1px;
+  border-style: solid;
+  border-color: transparent white white transparent;
+  border-radius: 20%;
+  margin: 10px 0 5px 0;
+  color: #b8b8b8;
+  font-size: 14px;
+  z-index: 10;
+  transform: rotate(35deg);
+}
+
+
+.centrado button.azules#invalido {
+  width: 100%;
+  height: 40px;
+  background-color: #e3e5e5;
+  border: 1px solid #b8b8b8;
+  border-radius: 20px;
+  margin: 10px 0 5px 0;
+  color: #b8b8b8;
+  font-size: 14px;
+  position: relative;
+  z-index: 0;
+}
+
+.centrado button.azules#invalido::before {
+  content: "";
+  position: absolute;
+  top: -1px;
+  left: 50px;
+  width: 20px;
+  height: 20px;
+  background-color: #e3e5e5;
+  border: 1px solid #b8b8b8;
+  border-radius: 20px;
+  margin: 10px 0 5px 0;
+  color: #b8b8b8;
+  font-size: 14px;
+}
+
+.centrado button.azules#invalido::after {
+  content: "";
+  position: absolute;
+  top: -6px;
+  left: 58px;
+  width: 7px;
+  height: 15px;
+  border: 1px;
+  border-style: solid;
+  border-color: transparent #b8b8b8 #b8b8b8 transparent;
+  border-radius: 20%;
+  margin: 10px 0 5px 0;
+  color: #b8b8b8;
+  font-size: 14px;
+  z-index: 10;
+  transform: rotate(35deg);
+}
+
+
+
+
+
+

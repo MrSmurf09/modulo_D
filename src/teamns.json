@@ -1,0 +1,95 @@
+{  
+    "id": 1,
+    "name": "Equipo 1",
+    "contactEmail": "team1@example.com",
+    "plannedStartingTime": "2023-04-25T09:20:00.000Z",
+    "startingTime": "2023-04-25T09:21:05.123Z",
+    "runners": [
+        {
+            "id": 1,
+            "firstName": "Juan",
+            "lastName": "Sierra",
+            "pace": "04:30",
+            "teamId": 1
+        },
+        {
+            "id": 2,
+            "firstName": "Luciana",
+            "lastName": "Hernandez",
+            "pace": "04:50",
+            "teamId": 1
+        },
+        {
+            "id": 3,
+            "firstName": "Carlos",
+            "lastName": "Sanchez",
+            "pace": "05:00",
+            "teamId": 1
+        },
+        {
+            "id": 4,
+            "firstName": "camilaaaa",
+            "lastName": "Duran",
+            "pace": "05:31",
+            "teamId": 1
+        },
+        {
+            "id": 5,
+            "firstName": "Juan",
+            "lastName": "Corredor",
+            "pace": "05:15",
+            "teamId": 1
+        },
+        {
+            "id": 6,
+            "firstName": "Luisa",
+            "lastName": "Cantillo",
+            "pace": "05:28",
+            "teamId": 1
+        },
+        {
+            "id": 7,
+            "firstName": "Maria",
+            "lastName": "Laiton",
+            "pace": "05:32",
+            "teamId": 1
+        },
+        {
+            "id": 8,
+            "firstName": "Jhon",
+            "lastName": "Caceres",
+            "pace": "05:56",
+            "teamId": 1
+        },
+        {
+            "id": 9,
+            "firstName": "Santiago",
+            "lastName": "Calderon",
+            "pace": "06:02",
+            "teamId": 1
+        },
+        {
+            "id": 10,
+            "firstName": "Jhonatan",
+            "lastName": "Carrillo",
+            "pace": "05:57",
+            "teamId": 1
+        },
+        {
+            "id": 11,
+            "firstName": "otro",
+            "lastName": "Larrota",
+            "pace": "06:22",
+            "teamId": 1
+        },
+        {
+            "id": 12,
+            "firstName": "Oswill",
+            "lastName": "Meneses",
+            "pace": "05:51",
+            "teamId": 1
+        }
+    ], 
+    "status":200
+
+}

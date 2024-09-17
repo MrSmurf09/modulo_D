@@ -1,0 +1,26 @@
+{
+    "stage": {
+        "id": 13,
+        "startingLocation": "otro",
+        "arrivalLocation": "nuevo otro",
+        "distance": 6.4,
+        "name": ""
+    },
+    "previousRunner": {
+        "id": 8,
+        "firstName": "paul",
+        "lastName": "demo",
+        "pace": "05:30",
+        "teamId": 1
+    },
+    "nextRunner": {
+        "id": 12,
+        "firstName": "Diana",
+        "lastName": "Perez",
+        "pace": "05:22",
+        "teamId": 1
+    },
+    "canStart": false,
+    "plannedStartTime": "2023-01-31T19:51:39.401055Z",
+    "plannedFinishTime": "2024-05-31T20:12:03.404243Z"
+}
